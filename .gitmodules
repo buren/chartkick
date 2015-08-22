@@ -1,0 +1,3 @@
+[submodule "app/assets/javascripts/vendor/chartkick.js"]
+	path = app/assets/javascripts/vendor/chartkick.js
+	url = https://github.com/buren/chartkick.js
