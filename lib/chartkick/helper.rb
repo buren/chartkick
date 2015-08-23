@@ -23,6 +23,10 @@ module Chartkick
       chartkick_chart "AreaChart", data_source, options
     end
 
+    def combo_chart(data_source, options = {})
+      chartkick_chart "ComboChart", data_source, options
+    end
+
     def geo_chart(data_source, options = {})
       chartkick_chart "GeoChart", data_source, options
     end
