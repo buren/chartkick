@@ -6,6 +6,7 @@ require "chartkick/sinatra" if defined?(Sinatra)
 module Chartkick
   class << self
     attr_accessor :content_for
+    attr_accessor :random_id
     attr_accessor :options
   end
   self.options = {}
